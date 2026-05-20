@@ -1,0 +1,24 @@
+img{
+    width: 100px;
+    height: auto;
+}
+.Galeria{
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+}
+.Galeria img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 4px solid #b26b5b;
+    padding: 1px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    border-color: #5c3826;
+}
